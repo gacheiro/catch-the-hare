@@ -113,7 +113,14 @@ pasta de instalação (`cmake --install build`).
 └── docs/                 imagens do README
 ```
 
-## Créditos
+## Licença
 
-- Carregador de texturas TGA: David Henry (2005), licença MIT — ver
-  [`third_party/tga/tga.c`](third_party/tga/tga.c).
+O código-fonte deste projeto é distribuído sob a [licença MIT](LICENSE).
+
+Não estão cobertos por ela:
+
+- [`third_party/tga/`](third_party/tga/): carregador de texturas TGA de
+  David Henry (2005), com sua própria licença MIT
+  ([`third_party/tga/LICENSE`](third_party/tga/LICENSE)).
+- [`assets/textures/`](assets/textures/): texturas de terceiros, que pertencem
+  aos seus respectivos autores ([detalhes](assets/textures/README.md)).
